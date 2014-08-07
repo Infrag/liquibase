@@ -10,7 +10,7 @@
     <parent>
         <groupId>org.liquibase</groupId>
         <artifactId>liquibase-parent</artifactId>
-        <version>3.2.3-SNAPSHOT</version>
+        <version>3.2.3-dropFirstFix</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
 
@@ -164,7 +164,7 @@
                 </configuration>
             </plugin>
 
-            <plugin>
+<!--            <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-javadoc-plugin</artifactId>
                 <executions>
@@ -180,7 +180,7 @@
                         </configuration>
                     </execution>
                 </executions>
-            </plugin>
+            </plugin>-->
 
 
             <!--<plugin>-->
